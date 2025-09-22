@@ -1,69 +1,33 @@
-# React + TypeScript + Vite
+# 🚀 Space Listing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Space Listing is a modern web application built with **React, Vite, TailwindCSS, and TypeScript**.  
+It provides a sleek platform for showcasing a **marketing agency** that delivers first-class customer experiences and advanced growth marketing strategies — while also offering a way to explore and discover different types of spaces.
 
-Currently, two official plugins are available:
+## ✨ Features
+- ⚡ **Fast & Modern Stack** – Built with React + Vite for performance  
+- 🎨 **TailwindCSS** – Clean and fully responsive design  
+- 🎬 **Framer Motion** – Smooth and elegant animations  
+- 📱 **Responsive UI** – Optimized for both desktop and mobile  
+- 🌐 **Web3 Marketing Focus** – Designed to help projects stand out in the Web3 community  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- [React](https://react.dev/)  
+- [Vite](https://vitejs.dev/)  
+- [TailwindCSS](https://tailwindcss.com/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Framer Motion](https://www.framer.com/motion/)  
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Clone the repo and install dependencies:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+```bash
+git clone https://github.com/devshakur/Space-Listing.git
+cd Space-Listing
+npm install
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📸 Screenshots  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🏠 Homepage  
+![Homepage Screenshot](https://raw.githubusercontent.com/devshakur/Space-Listing/main/public/image/space-listing.png)
+  
