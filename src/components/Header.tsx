@@ -2,10 +2,10 @@ import Navbar from "./NavBar";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center py-5 px-6">
+    <div className="flex justify-between items-center  px-6">
       {/* Logo */}
       <div>
-        <img src="/image/logo.png" alt="logo" className="w-24 h-24" />
+        <img src="/image/logo4.jpeg" alt="logo" className="w-65 h-40 -mt-4" />
       </div>
 
       {/* Navbar - hidden on small screens */}

@@ -117,6 +117,11 @@ const ContactUs = () => {
           alt="logo"
           className="h-12 md:h-16 object-contain grayscale hover:grayscale-0 transition"
         />
+        <img
+          src="/image/logo4.jpeg"
+          alt="logo"
+          className="h-12 md:h-16 object-contain grayscale hover:grayscale-0 transition"
+        />
       </div>
     </section>
   );
